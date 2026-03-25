@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -13,20 +13,35 @@
         <p>Vamos testar seus conhecimentos para saber se você conhece tudo sobre o BTS neste quiz divertido.</p>
     </header>
 
+    <nav class="menu-principal" aria-label="Menu principal">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="menu-links" id="menu-links">
+            <a href="index.html">Quiz Sobre o BTS</a>
+            <a href="historia.html">História do Grupo BTS</a>
+            <a href="curiosidades.html">Curiosidades sobre o BTS</a>
+            <a href="musicas.html">Músicas Mais Ouvidas</a>
+            <a href="album-2026.html"> Músicas do Álbum Mais Recente Arirang</a>
+        </div>
+    </nav>
+
     <main>
         <div class="img1">
-            <img src="imagens/banerdobts.png" alt="foto oficial do BTS" width="1400" height="350">
+            <img src="imagens/banerdobts.png" alt="foto oficial do BTS">
         </div>
 
         <section>
             <h2 class="sobrequiz">Sobre esse quiz</h2>
-            <p><strong>Este quiz</strong> foi desenvolvido no intuido de ser algo divertido e para que você aprenda ainda mais sobre o BTS. Caso você erre alguma questão isso não faz de você menos fã ok ?!</p>
+            <p><strong>Este quiz</strong> foi desenvolvido no intuito de ser algo divertido e para que você aprenda ainda mais sobre o BTS. Caso você erre alguma questão, isso não faz de você menos fã, ok?!</p>
             <p>Estamos aqui para nos divertir e conhecer ainda mais este grupo tão maravilhoso que amamos tanto!!</p>
         </section>
 
         <section>
-            <h2>Perguntas:</h2>
-            <h2>1. Qual é o nome verdadeiro do RM?</h2>
+            <h2 class="titulo-perguntas">Perguntas:</h2>
+            <h2 class="titulo-pergunta-item">1. Qual é o nome verdadeiro do RM?</h2>
             <form>
                 <input type="radio" id="opcao1" name="pergunta1" value="Kim Namjoon">
                 <label for="opcao1">Kim Namjoon</label><br>
@@ -40,7 +55,7 @@
         </section>
 
         <section>
-            <h2>2. Em que ano o BTS debutou oficialmente?</h2>
+            <h2 class="titulo-pergunta-item">2. Em que ano o BTS debutou oficialmente?</h2>
             <form>
                 <input type="radio" id="ano2010" name="pergunta2" value="2010">
                 <label for="ano2010">2010</label><br>
@@ -54,7 +69,7 @@
         </section>
 
         <section>
-            <h2>3. Qual desses membros é o mais novo do grupo?</h2>
+            <h2 class="titulo-pergunta-item">3. Qual desses membros é o mais novo do grupo?</h2>
             <form>
                 <input type="radio" id="opcaoA" name="pergunta3" value="Jungkook">
                 <label for="opcaoA">Jungkook</label><br>
@@ -68,7 +83,7 @@
         </section>
 
         <section>
-            <h2>4. Qual foi o primeiro single oficial do BTS?</h2>
+            <h2 class="titulo-pergunta-item">4. Qual foi o primeiro single oficial do BTS?</h2>
             <form>
                 <input type="radio" id="opcaoa" name="pergunta4" value="No More Dream">
                 <label for="opcaoa">No More Dream</label><br>
@@ -82,7 +97,7 @@
         </section>
 
         <section>
-            <h2>5. Qual desses álbuns pertence à trilogia "The Most Beautiful Moment in Life"?</h2>
+            <h2 class="titulo-pergunta-item">5. Qual desses álbuns pertence à trilogia "The Most Beautiful Moment in Life"?</h2>
             <form>
                 <input type="radio" id="album1" name="pergunta5" value="Wings">
                 <label for="album1">Wings</label><br>
@@ -96,7 +111,7 @@
         </section>
 
         <section>
-            <h2>6. O que significa o nome "BTS"?</h2>
+            <h2 class="titulo-pergunta-item">6. O que significa o nome "BTS"?</h2>
             <form>
                 <input type="radio" id="significado1" name="pergunta6" value="Beyond The Stars">
                 <label for="significado1">Beyond The Stars</label><br>
@@ -110,7 +125,7 @@
         </section>
 
         <section>
-            <h2>7. Qual membro é conhecido como "Worldwide Handsome"?</h2>
+            <h2 class="titulo-pergunta-item">7. Qual membro é conhecido como "Worldwide Handsome"?</h2>
             <form>
                 <input type="radio" id="membro1" name="pergunta7" value="Jin">
                 <label for="membro1">Jin</label><br>
@@ -124,7 +139,7 @@
         </section>
 
         <section>
-            <h2>8. Qual desses é o nome do fandom oficial do BTS?</h2>
+            <h2 class="titulo-pergunta-item">8. Qual desses é o nome do fandom oficial do BTS?</h2>
             <form>
                 <input type="radio" id="fandom1" name="pergunta8" value="BLINK">
                 <label for="fandom1">BLINK</label><br>
@@ -138,7 +153,7 @@
         </section>
 
         <section>
-            <h2>9. Qual dessas músicas foi indicada ao Grammy?</h2>
+            <h2 class="titulo-pergunta-item">9. Qual dessas músicas foi indicada ao Grammy?</h2>
             <form>
                 <input type="radio" id="musica1" name="pergunta9" value="Dynamite">
                 <label for="musica1">Dynamite</label><br>
@@ -152,7 +167,7 @@
         </section>
 
         <section>
-            <h2>10. Qual é o lema do BTS segundo o RM?</h2>
+            <h2 class="titulo-pergunta-item">10. Qual é o lema do BTS segundo o RM?</h2>
             <form>
                 <input type="radio" id="lema1" name="pergunta10" value="Love Myself, speak yourself">
                 <label for="lema1">Love Myself, speak yourself</label><br>
@@ -168,21 +183,19 @@
         <section>
             <br>
             <form id="quiz">
-                <!-- perguntas aqui -->
-             <button type="button" onclick="calcularResultado()">Enviar respostas</button>
+                <button id="btn-enviar" type="button">Enviar respostas</button>
             </form>
 
             <div id="resultado"></div>
-
-
         </section>
         <section>
-            <h2 id="resultado">Seu resultado:</h2>
+            <h2 id="titulo-resultado">Seu resultado:</h2>
             <p id="pontuacao"></p>
             <p id="mensagem"></p>
+            <div id="detalhes-resultado"></div>
         </section>
 
-        <section>
+        <section class="secao-contato-quiz">
             <h2 class="maisquiz">Deseja receber mais curiosidades e quiz sobre o grupo BTS?</h2>
             <p id="informe">Então informe seu contato para que possamos te enviar novas curiosidades sobre o BTS.</p>
             <form>
@@ -193,27 +206,28 @@
                     <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui"><br><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="Digite seu email aqui"><br><br>
-                    <label for="Celular">Celular:</label><br>
-                    <input type="tel" id="celular" name="celular" placeholder="Digite seu celular aqui"><br><br>
                     <button type="submit">Enviar</button>
                 </fieldset>
             </form>
         </section>
 
         <section>
-            <h2 id="fedeback">Nos dê seu Feedback</h2>
+            <h2 id="fedeback">Nos dê seu feedback</h2>
             <form>
                 <fieldset>
                     <label for="feedback">O que você achou do quiz?</label><br><br>
                     <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Escreva seu feedback aqui..."></textarea><br>
-                    <button type="submit">Enviar Feedback</button>
+                    <button type="submit">Enviar feedback</button>
                 </fieldset>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>Quiz sobre o BTS . Todos os direitos reservados &copy; By <a href="https://www.linkedin.com/in/yasmim-bernardo-568267205" target="_blank" rel="noopener">Yasmim Bernardo</a></p>
+        <p>Quiz sobre o BTS. Todos os direitos reservados &copy; By <a href="https://www.linkedin.com/in/yasmim-bernardo-568267205" target="_blank" rel="noopener">Yasmim Bernardo</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
